@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Payground</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1 id="headingH1">Ariel's JavaScript Easter Playground</h1>
+      </header>
+      <nav>
+        <div>
+          <!---Hey Ariel! This is cleaner, start formatting code like this for image!-->
+          <img
+            id="logoImage"
+            src="https://images.unsplash.com/photo-1488867605300-0380106bc701?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=922&q=80"
+            alt="easter eggs"
+          />
+          <span>Easter Goodies</span>
+        </div>
+        <div class="links">
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" id="searchInput" />
+          <button type="submit" id="button" onclick="searchFunction()">
+            Search Now!
+          </button>
+        </div>
+      </nav>
+      <main>
+        <img
+          src="https://images.unsplash.com/photo-1615818067756-bd083d072353?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aGFwcHklMjBlYXN0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          alt="cupcakes"
+          class="cupcakesImage"
+        />
+        <form id="inputForm">
+          <!-- Practice moving this form to the right of the image -->
+          <!-- I cannot figure out how to get it to the right, please take a look at how it is and let me know how to structure it?-->
+          <label for="cupcakeImage">Do you like this photo? Let us know!</label>
+          <br />
+          <!--     Talk about what the above <br/> does and how you could change the label to display block to achieve the same thing   -->
+          <!-- BR is a line break and is self closing. -->
+          <input type="text" id="cupcakeInput" />
+          <!-- <button type="submit" id="button">Enter</button> -->
+          <button type="submit" id="button">Enter</button>
+        </form>
+      </main>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  </body>
+</html>
